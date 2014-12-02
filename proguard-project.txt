@@ -48,8 +48,9 @@
 
 -dontwarn **$$anonfun$*
 -dontwarn scala.beans.ScalaBeanInfo
--dontwarn scala.collection.generic.GenTraversableFactory
--dontwarn scala.collection.immutable.RedBlack$Empty
+-dontwarn scala.collection.**
+#-dontwarn scala.collection.generic.GenTraversableFactory
+#-dontwarn scala.collection.immutable.RedBlack$Empty
 -dontwarn scala.concurrent.forkjoin.**
 -dontwarn scala.reflect.**
 -dontwarn scala.sys.process.**

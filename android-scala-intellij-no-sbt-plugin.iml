@@ -5,6 +5,7 @@
       <configuration>
         <option name="RUN_PROGUARD" value="true" />
         <proGuardCfgFiles>
+          <file>file://$MODULE_DIR$/proguard-project.txt</file>
           <file>file://%MODULE_SDK_HOME%/tools/proguard/proguard-android.txt</file>
           <file>file://$MODULE_DIR$/proguard-project.txt</file>
         </proGuardCfgFiles>
@@ -12,14 +13,15 @@
     </facet>
     <facet type="scala" name="Scala">
       <configuration>
-        <option name="compilerLibraryLevel" value="Global" />
-        <option name="compilerLibraryName" value="scala-compiler" />
+        <option name="compilerLibraryLevel" value="Project" />
+        <option name="compilerLibraryName" value="scala" />
         <option name="continuations" value="true" />
         <option name="deprecationWarnings" value="true" />
         <option name="explainTypeErrors" value="true" />
+        <option name="languageLevel" value="Scala 2.11" />
         <option name="pluginPaths">
           <array>
-            <option value="libs/scala-plugins/continuations.jar" />
+            <option value="/opt/scala/lib/scala-continuations-plugin_2.11.4-1.0.2.jar" />
           </array>
         </option>
         <option name="uncheckedWarnings" value="true" />
@@ -32,9 +34,9 @@
       <sourceFolder url="file://$MODULE_DIR$/src" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/gen" isTestSource="false" generated="true" />
     </content>
-    <orderEntry type="jdk" jdkName="Android 4.4 Platform" jdkType="Android SDK" />
+    <orderEntry type="jdk" jdkName="Android API 19 Platform" jdkType="Android SDK" />
     <orderEntry type="sourceFolder" forTests="false" />
-    <orderEntry type="library" name="scala-library" level="application" />
+    <orderEntry type="library" name="scala" level="project" />
   </component>
 </module>
 
